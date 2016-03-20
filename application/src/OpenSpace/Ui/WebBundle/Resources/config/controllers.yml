@@ -1,0 +1,7 @@
+parameters:
+    openspace.ui.web.controller.task.class: OpenSpace\Ui\WebBundle\Controller\TaskController
+
+services:
+    openspace.ui.web.controller.task:
+        class: %openspace.ui.web.controller.task.class%
+        arguments: ['@openspace.ui.shared.util.controller_utils', '@openspace.query.repository.task_view_model_repository']

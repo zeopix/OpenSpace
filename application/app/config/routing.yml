@@ -1,0 +1,7 @@
+#OpenSpaceWeb
+openspace_web:
+  resource: "@OpenSpaceUiWebBundle/Resources/config/routing.xml"
+  prefix:   /
+
+api_login_check:
+    path: /api/login_check

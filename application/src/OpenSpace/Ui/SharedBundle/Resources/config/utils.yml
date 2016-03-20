@@ -1,0 +1,7 @@
+parameters:
+    openspace.ui.shared.util.controller_utils.class: OpenSpace\Ui\SharedBundle\Util\ControllerUtils
+
+services:
+    openspace.ui.shared.util.controller_utils:
+        class: %openspace.ui.shared.util.controller_utils.class%
+        arguments: ['@service_container']

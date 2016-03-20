@@ -1,0 +1,13 @@
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
+                  http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+
+    <entity name="OpenSpace\Domain\Model\Player" table="players">
+        <id name="id" type="string" column="id" />
+        <field name="username" column="username" type="string"/>
+        <field name="password" column="password" type="string"/>
+        <field name="email" column="email" type="string"/>
+    </entity>
+
+</doctrine-mapping>

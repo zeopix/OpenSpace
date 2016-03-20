@@ -1,0 +1,15 @@
+parameters:
+    openspace.domain.repository.task_repository.class: OpenSpace\Infrastructure\Persistence\Doctrine\TaskDoctrineOrmRepository
+    openspace.domain.repository.player_repository.class: OpenSpace\Infrastructure\Persistence\Doctrine\PlayerDoctrineOrmRepository
+    openspace.domain.repository.world_repository.class: OpenSpace\Infrastructure\Persistence\Doctrine\WorldDoctrineOrmRepository
+
+services:
+    openspace.domain.repository.task_repository:
+        class: %openspace.domain.repository.task_repository.class%
+        arguments: ['@doctrine.orm.write_entity_manager', OpenSpace\Domain\Model\Task]
+    openspace.domain.repository.player_repository:
+        class: %openspace.domain.repository.player_repository.class%
+        arguments: ['@doctrine.orm.write_entity_manager', OpenSpace\Domain\Model\Player]
+    openspace.domain.repository.world_repository:
+        class: %openspace.domain.repository.world_repository.class%
+        arguments: ['@doctrine.orm.write_entity_manager', OpenSpace\Domain\Model\World]

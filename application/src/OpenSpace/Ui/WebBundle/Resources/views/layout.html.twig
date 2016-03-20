@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
+        {% block stylesheets %}
+            <link href="{{ asset('bundles/openspaceuiweb/css/bootstrap.min.css') }}" rel="stylesheet" media="screen">
+            <link href="{{ asset('bundles/openspaceuiweb/css/style.css') }}" rel="stylesheet" media="screen">
+        {% endblock stylesheets %}
+
+        {% block javascripts_head %}
+            <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+            <script type="text/javascript" src="{{ asset('bundles/openspaceuiweb/javascript/main.js') }}"></script>
+        {% endblock javascripts_head %}
+    </head>
+    <body>
+        {% block body %}
+        <div class="container main">
+            <header class="page-header">
+                <h1>Symfony CQRS edition - Task Demo</h1>
+            </header>
+
+            {% block main %}{% endblock %}
+
+            <footer class="clearfix">
+                <div class="pull-left logo">
+                    <a href="http://thebigbrainscompany.com">
+                        <img src="{{ asset('bundles/openspaceuiweb/images/logo-little.png') }}" alt="The Big Brains Company">
+                    </a>
+                </div>
+                <div class="pull-right links">
+                    <p>
+                        <a href="http://thebigbrainscompany.com">thebigbrainscompany.com</a><br>
+                        @thebigbrainscom
+                    </p>
+                </div>
+            </footer>
+        </div>
+        {% endblock body %}
+
+        {% block javascripts_foot %}{% endblock javascripts_foot %}
+    </body>
+</html>

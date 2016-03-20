@@ -1,0 +1,47 @@
+application:
+    build: code
+    volumes:
+        - ../application:/var/www/symfony
+        - ./logs/symfony:/var/www/symfony/app/logs
+    tty: true
+db:
+    image: mysql:5.6
+    ports:
+        - 3306:3306
+    environment:
+        MYSQL_ROOT_PASSWORD: root
+        MYSQL_DATABASE: openspace
+        MYSQL_USER: root
+        MYSQL_PASSWORD: root
+php:
+    build: php-fpm
+    ports:
+        - 9000:9000
+    volumes_from:
+        - application
+    links:
+        - db
+    environment:
+        SYMFONY__DATABASE_HOST: 192.168.99.100
+nginx:
+    build: nginx
+    ports:
+        - 80:80
+    links:
+        - php
+    volumes_from:
+        - application
+    volumes:
+        - ./logs/nginx/:/var/log/nginx
+elk:
+    image: willdurand/elk
+    ports:
+        - 81:80
+    volumes:
+        - ./elk/logstash:/etc/logstash
+        - ./elk/logstash/patterns:/opt/logstash/patterns
+        - ./elk/data:/data
+    volumes_from:
+        - application
+        - php
+        - nginx

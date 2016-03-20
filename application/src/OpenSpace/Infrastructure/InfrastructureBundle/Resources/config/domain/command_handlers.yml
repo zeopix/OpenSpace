@@ -1,0 +1,9 @@
+parameters:
+    openspace.domain.handler.task_handler.class: OpenSpace\Domain\Handler\TaskHandler
+
+services:
+    openspace.domain.handler.task_handler:
+        class: %openspace.domain.handler.task_handler.class%
+        tags:
+            - { name: lite_cqrs.command_handler }
+        arguments: ['@litecqrs.identity_map', '@openspace.domain.repository.task_repository']

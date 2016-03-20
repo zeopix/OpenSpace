@@ -1,0 +1,14 @@
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
+                  http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+
+    <entity name="OpenSpace\Domain\Model\World" table="worlds">
+        <id name="id" type="string" column="id" />
+        <field name="galaxy" column="galaxy" type="string"/>
+        <field name="system" column="system" type="string"/>
+        <field name="planet" column="planet" type="string"/>
+        <field name="user" column="user" type="string"/>
+    </entity>
+
+</doctrine-mapping>

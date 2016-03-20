@@ -1,0 +1,15 @@
+parameters:
+    openspace.query.repository.task_view_model_repository.class: OpenSpace\Infrastructure\Persistence\Doctrine\TaskViewModelDoctrineDbalRepository
+    openspace.query.repository.player_view_model_repository.class: OpenSpace\Infrastructure\Persistence\Doctrine\PlayerViewModelDoctrineDbalRepository
+    openspace.query.repository.world_view_model_repository.class: OpenSpace\Infrastructure\Persistence\Doctrine\WorldViewModelDoctrineDbalRepository
+
+services:
+    openspace.query.repository.task_view_model_repository:
+        class: %openspace.query.repository.task_view_model_repository.class%
+        arguments: ['@doctrine.dbal.read_connection']
+    openspace.query.repository.player_view_model_repository:
+        class: %openspace.query.repository.player_view_model_repository.class%
+        arguments: ['@doctrine.dbal.read_connection']
+    openspace.query.repository.world_view_model_repository:
+        class: %openspace.query.repository.world_view_model_repository.class%
+        arguments: ['@doctrine.dbal.read_connection']

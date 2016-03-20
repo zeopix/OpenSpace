@@ -1,0 +1,21 @@
+parameters:
+    openspace.query.event_handler.task_view_model_update_event_handler.class: OpenSpace\Query\EventHandler\TaskViewModelUpdateEventHandler
+    openspace.query.event_handler.player_view_model_update_event_handler.class: OpenSpace\Query\EventHandler\PlayerViewModelUpdateEventHandler
+    openspace.query.event_handler.world_view_model_update_event_handler.class: OpenSpace\Query\EventHandler\WorldViewModelUpdateEventHandler
+
+services:
+    openspace.query.event_handler.task_view_model_update_event_handler:
+        class: %openspace.query.event_handler.task_view_model_update_event_handler.class%
+        tags:
+            - { name: lite_cqrs.event_handler }
+        arguments: ['@openspace.query.repository.task_view_model_repository']
+    openspace.query.event_handler.player_view_model_update_event_handler:
+        class: %openspace.query.event_handler.player_view_model_update_event_handler.class%
+        tags:
+            - { name: lite_cqrs.event_handler }
+        arguments: ['@openspace.query.repository.player_view_model_repository']
+    openspace.query.event_handler.world_view_model_update_event_handler:
+        class: %openspace.query.event_handler.world_view_model_update_event_handler.class%
+        tags:
+            - { name: lite_cqrs.event_handler }
+        arguments: ['@openspace.query.repository.world_view_model_repository']

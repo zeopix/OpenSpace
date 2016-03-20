@@ -1,0 +1,9 @@
+{% extends 'OpenSpaceUiWebBundle::layout.html.twig' %}
+
+{% block main %}
+    <div>
+        {{ include('OpenSpaceUiWebBundle:Task:form.html.twig', {'form': form}) }}
+
+        {{ render(controller('openspace.ui.web.controller.task:listAction')) }}
+    </div>
+{% endblock main %}

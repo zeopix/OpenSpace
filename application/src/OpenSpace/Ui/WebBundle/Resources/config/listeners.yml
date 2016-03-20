@@ -1,0 +1,9 @@
+parameters:
+    openspace.ui.web.listener.application_initialization.class: OpenSpace\Ui\WebBundle\EventListener\ApplicationInitializationListener
+
+services:
+    openspace.ui.web.listener.application_initialization:
+        class: %openspace.ui.web.listener.application_initialization.class%
+        tags:
+            - { name: kernel.event_listener, event: kernel.request, method: onKernelRequest, priority: -128 }
+        arguments: ['%kernel.root_dir%/../var/install.lock', '@templating']

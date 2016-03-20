@@ -1,0 +1,615 @@
+2016/02/07 11:57:53 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Redis' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 1710" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "192.168.99.100"
+2016/02/07 16:17:17 [error] 9#0: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php:55
+Stack trace:
+#0 /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php(55): Redis->close()
+#1 [internal function]: Snc\RedisBundle\Client\Phpredis\Client->__destruct()
+#2 {main}
+  thrown in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php on line 55" while reading upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "192.168.99.100"
+2016/02/07 16:37:28 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php:55
+Stack trace:
+#0 /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php(55): Redis->close()
+#1 [internal function]: Snc\RedisBundle\Client\Phpredis\Client->__destruct()
+#2 {main}
+  thrown in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php on line 55" while reading upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 16:51:19 [error] 8#0: *3 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php:55
+Stack trace:
+#0 /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php(55): Redis->close()
+#1 [internal function]: Snc\RedisBundle\Client\Phpredis\Client->__destruct()
+#2 {main}
+  thrown in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php on line 55" while reading upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 16:53:14 [error] 8#0: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php:55
+Stack trace:
+#0 /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php(55): Redis->close()
+#1 [internal function]: Snc\RedisBundle\Client\Phpredis\Client->__destruct()
+#2 {main}
+  thrown in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php on line 55" while reading upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 16:53:55 [error] 8#0: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php:55
+Stack trace:
+#0 /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php(55): Redis->close()
+#1 [internal function]: Snc\RedisBundle\Client\Phpredis\Client->__destruct()
+#2 {main}
+  thrown in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php on line 55" while reading upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 16:58:55 [error] 8#0: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php:55
+Stack trace:
+#0 /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php(55): Redis->close()
+#1 [internal function]: Snc\RedisBundle\Client\Phpredis\Client->__destruct()
+#2 {main}
+  thrown in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php on line 55" while reading upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 16:58:58 [error] 8#0: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php:55
+Stack trace:
+#0 /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php(55): Redis->close()
+#1 [internal function]: Snc\RedisBundle\Client\Phpredis\Client->__destruct()
+#2 {main}
+  thrown in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php on line 55" while reading upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 16:59:35 [error] 8#0: *13 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php:55
+Stack trace:
+#0 /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php(55): Redis->close()
+#1 [internal function]: Snc\RedisBundle\Client\Phpredis\Client->__destruct()
+#2 {main}
+  thrown in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php on line 55" while reading upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 17:00:01 [error] 7#0: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php:55
+Stack trace:
+#0 /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php(55): Redis->close()
+#1 [internal function]: Snc\RedisBundle\Client\Phpredis\Client->__destruct()
+#2 {main}
+  thrown in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php on line 55" while reading upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 17:01:00 [error] 6#0: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php:55
+Stack trace:
+#0 /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php(55): Redis->close()
+#1 [internal function]: Snc\RedisBundle\Client\Phpredis\Client->__destruct()
+#2 {main}
+  thrown in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php on line 55" while reading upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 17:02:19 [error] 6#0: *21 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RedisException' with message 'Redis server went away' in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php:55
+Stack trace:
+#0 /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php(55): Redis->close()
+#1 [internal function]: Snc\RedisBundle\Client\Phpredis\Client->__destruct()
+#2 {main}
+  thrown in /var/www/symfony/vendor/snc/redis-bundle/Snc/RedisBundle/Client/Phpredis/Client.php on line 55" while reading upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 17:34:06 [error] 7#0: *49 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 17:34:06 [error] 7#0: *50 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-route.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 17:34:06 [error] 7#0: *51 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-animate.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 17:34:06 [error] 7#0: *52 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-aria.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 17:34:21 [error] 7#0: *47 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-messages.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 17:35:06 [error] 7#0: *52 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-route.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 17:35:06 [error] 7#0: *51 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 17:35:08 [error] 7#0: *53 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-animate.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 17:35:21 [error] 7#0: *47 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-aria.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 17:35:25 [error] 7#0: *49 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-messages.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 18:11:00 [error] 5#0: *91 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 18:11:00 [error] 5#0: *93 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-route.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 18:11:00 [error] 5#0: *94 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-animate.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 18:11:00 [error] 5#0: *97 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-aria.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 18:11:00 [error] 5#0: *98 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-messages.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 18:51:08 [error] 5#0: *138 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/api/brand/list.json HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/app_dev.php/"
+2016/02/07 18:51:08 [error] 6#0: *146 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/api/province/list HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/app_dev.php/"
+2016/02/07 18:51:08 [error] 6#0: *148 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/template/search/home.html HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/app_dev.php/"
+2016/02/07 23:32:55 [error] 6#0: *155 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'FOS\UserBundle\Doctrine\Orm\UserListener' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 505" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 23:32:55 [error] 6#0: *157 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'FOS\UserBundle\Doctrine\Orm\UserListener' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 505" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-route.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 23:32:55 [error] 6#0: *160 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'FOS\UserBundle\Doctrine\Orm\UserListener' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 505" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-aria.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 23:32:56 [error] 6#0: *159 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'FOS\UserBundle\Doctrine\Orm\UserListener' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 505" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-animate.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 23:33:00 [error] 6#0: *152 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'FOS\UserBundle\Doctrine\Orm\UserListener' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 505" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-messages.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 23:38:14 [error] 6#0: *174 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'FOS\UserBundle\Doctrine\Orm\UserListener' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 505" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-aria.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 23:38:14 [error] 6#0: *173 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'FOS\UserBundle\Doctrine\Orm\UserListener' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 505" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-animate.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 23:38:14 [error] 6#0: *170 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'FOS\UserBundle\Doctrine\Orm\UserListener' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 505" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-route.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 23:38:14 [error] 6#0: *171 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'FOS\UserBundle\Doctrine\Orm\UserListener' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 505" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/07 23:38:15 [error] 6#0: *168 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'FOS\UserBundle\Doctrine\Orm\UserListener' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 505" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-messages.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/08 00:04:01 [error] 9#0: *29 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'FOS\UserBundle\Doctrine\Orm\UserListener' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 505
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:3099
+PHP message: PHP   7. Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher->getListeners($eventName = *uninitialized*) /var/www/symfony/app/cache/prod/classes.php:2200
+PHP message: PHP   8. Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher->lazyLoad($eventName = *uninitialized*) /var/www/symfony/app/cache/prod/classes.php:2343
+PHP message: PHP   9. Symfony\Component\DependencyInjection\Container->get($id = *uninitialized*, $invalidBehavior = *uninitialized*) /var/www/symfony/app/cache/prod/classes.php:2370
+PHP message: PHP  10. appProdProjectContainer->getNelmioApiDoc_EventListener_RequestService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  11. Symfony\Component\DependencyInjection\Container->get($id = *uninitialize
+2016/02/08 00:04:01 [error] 9#0: *29 FastCGI sent in stderr: "getDoctrine_Orm_DefaultEntityManagerService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  25. Symfony\Component\DependencyInjection\Container->get($id = *uninitialized*, $invalidBehavior = *uninitialized*) /var/www/symfony/app/cache/prod/appProdProjectContainer.php:537
+PHP message: PHP  26. appProdProjectContainer->getDoctrine_Dbal_DefaultConnectionService() /var/www/symfony/app/bootstrap.php.cache:2155" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-route.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/08 00:04:20 [error] 9#0: *28 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'FOS\UserBundle\Doctrine\Orm\UserListener' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 505
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:3099
+PHP message: PHP   7. Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher->getListeners($eventName = *uninitialized*) /var/www/symfony/app/cache/prod/classes.php:2200
+PHP message: PHP   8. Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher->lazyLoad($eventName = *uninitialized*) /var/www/symfony/app/cache/prod/classes.php:2343
+PHP message: PHP   9. Symfony\Component\DependencyInjection\Container->get($id = *uninitialized*, $invalidBehavior = *uninitialized*) /var/www/symfony/app/cache/prod/classes.php:2370
+PHP message: PHP  10. appProdProjectContainer->getNelmioApiDoc_EventListener_RequestService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  11. Symfony\Component\DependencyInjection\Container->get($id = *uninitialize
+2016/02/08 00:04:20 [error] 9#0: *28 FastCGI sent in stderr: "getDoctrine_Orm_DefaultEntityManagerService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  25. Symfony\Component\DependencyInjection\Container->get($id = *uninitialized*, $invalidBehavior = *uninitialized*) /var/www/symfony/app/cache/prod/appProdProjectContainer.php:537
+PHP message: PHP  26. appProdProjectContainer->getDoctrine_Dbal_DefaultConnectionService() /var/www/symfony/app/bootstrap.php.cache:2155" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-animate.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/08 00:04:28 [error] 9#0: *27 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-aria.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/08 00:04:28 [error] 9#0: *25 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-messages.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/08 00:06:30 [error] 6#0: *3 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'FOS\UserBundle\Doctrine\Orm\UserListener' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 505
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:3099
+PHP message: PHP   7. Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher->getListeners($eventName = *uninitialized*) /var/www/symfony/app/cache/prod/classes.php:2200
+PHP message: PHP   8. Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher->lazyLoad($eventName = *uninitialized*) /var/www/symfony/app/cache/prod/classes.php:2343
+PHP message: PHP   9. Symfony\Component\DependencyInjection\Container->get($id = *uninitialized*, $invalidBehavior = *uninitialized*) /var/www/symfony/app/cache/prod/classes.php:2370
+PHP message: PHP  10. appProdProjectContainer->getNelmioApiDoc_EventListener_RequestService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  11. Symfony\Component\DependencyInjection\Container->get($id = *uninitialized
+2016/02/08 00:06:30 [error] 6#0: *3 FastCGI sent in stderr: "getDoctrine_Orm_DefaultEntityManagerService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  25. Symfony\Component\DependencyInjection\Container->get($id = *uninitialized*, $invalidBehavior = *uninitialized*) /var/www/symfony/app/cache/prod/appProdProjectContainer.php:537
+PHP message: PHP  26. appProdProjectContainer->getDoctrine_Dbal_DefaultConnectionService() /var/www/symfony/app/bootstrap.php.cache:2155" while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /assets/js/angular.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/08 00:06:45 [error] 6#0: *13 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'FOS\UserBundle\Doctrine\Orm\UserListener' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 505
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:3099
+PHP message: PHP   7. Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher->getListeners($eventName = *uninitialized*) /var/www/symfony/app/cache/prod/classes.php:2200
+PHP message: PHP   8. Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher->lazyLoad($eventName = *uninitialized*) /var/www/symfony/app/cache/prod/classes.php:2343
+PHP message: PHP   9. Symfony\Component\DependencyInjection\Container->get($id = *uninitialized*, $invalidBehavior = *uninitialized*) /var/www/symfony/app/cache/prod/classes.php:2370
+PHP message: PHP  10. appProdProjectContainer->getNelmioApiDoc_EventListener_RequestService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  11. Symfony\Component\DependencyInjection\Container->get($id = *uninitialize
+2016/02/08 00:06:45 [error] 6#0: *13 FastCGI sent in stderr: "getDoctrine_Orm_DefaultEntityManagerService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  25. Symfony\Component\DependencyInjection\Container->get($id = *uninitialized*, $invalidBehavior = *uninitialized*) /var/www/symfony/app/cache/prod/appProdProjectContainer.php:537
+PHP message: PHP  26. appProdProjectContainer->getDoctrine_Dbal_DefaultConnectionService() /var/www/symfony/app/bootstrap.php.cache:2155" while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /assets/js/angular-messages.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/08 00:07:00 [error] 6#0: *12 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'FOS\UserBundle\Doctrine\Orm\UserListener' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 505
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle($request = *uninitialized*, $type = *uninitialized*, $catch = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw($request = *uninitialized*, $type = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. Symfony\Component\EventDispatcher\EventDispatcher->dispatch($eventName = *uninitialized*, $event = *uninitialized*) /var/www/symfony/app/bootstrap.php.cache:3099
+PHP message: PHP   7. Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher->getListeners($eventName = *uninitialized*) /var/www/symfony/app/cache/prod/classes.php:2200
+PHP message: PHP   8. Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher->lazyLoad($eventName = *uninitialized*) /var/www/symfony/app/cache/prod/classes.php:2343
+PHP message: PHP   9. Symfony\Component\DependencyInjection\Container->get($id = *uninitialized*, $invalidBehavior = *uninitialized*) /var/www/symfony/app/cache/prod/classes.php:2370
+PHP message: PHP  10. appProdProjectContainer->getNelmioApiDoc_EventListener_RequestService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  11. Symfony\Component\DependencyInjection\Container->get($id = *uninitialize
+2016/02/08 00:07:00 [error] 6#0: *12 FastCGI sent in stderr: "getDoctrine_Orm_DefaultEntityManagerService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  25. Symfony\Component\DependencyInjection\Container->get($id = *uninitialized*, $invalidBehavior = *uninitialized*) /var/www/symfony/app/cache/prod/appProdProjectContainer.php:537
+PHP message: PHP  26. appProdProjectContainer->getDoctrine_Dbal_DefaultConnectionService() /var/www/symfony/app/bootstrap.php.cache:2155" while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /assets/js/angular-aria.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/08 00:07:12 [error] 6#0: *10 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /assets/js/angular-route.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/08 00:07:12 [error] 6#0: *11 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /assets/js/angular-animate.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100"
+2016/02/08 00:07:12 [error] 6#0: *18 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /app_dev.php/_wdt/59f3ff HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/app_dev.php/"
+2016/02/08 00:07:30 [error] 6#0: *3 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /app_dev.php/api/brand/list.json HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/app_dev.php/"
+2016/02/08 00:09:31 [error] 6#0: *28 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "POST /app_dev.php/api/search/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/app_dev.php/"
+2016/02/08 00:15:14 [error] 6#0: *30 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "POST /app_dev.php/api/search/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/app_dev.php/"
+2016/02/08 22:46:05 [error] 7#0: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unable to create the Doctrine Proxy directory "/var/www/symfony/app/cache/prod/doctrine/orm/Proxies".' in /var/www/symfony/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/CacheWarmer/ProxyCacheWarmer.php:58
+Stack trace:
+#0 /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/CacheWarmer/CacheWarmerAggregate.php(48): Symfony\Bridge\Doctrine\CacheWarmer\ProxyCacheWarmer->warmUp('/var/www/symfon...')
+#1 /var/www/symfony/app/bootstrap.php.cache(2639): Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerAggregate->warmUp('/var/www/symfon...')
+#2 /var/www/symfony/app/bootstrap.php.cache(2409): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#3 /var/www/symfony/app/bootstrap.php.cache(2440): Symfony\Component\HttpKernel\Kernel->boot()
+#4 /var/www/symfony/web/app.php(23): Symfony\Component\HttpKernel\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#5 {main}
+  thrown in /var/www/sym" while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /assets/js/angular.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev"
+2016/02/08 22:46:21 [error] 9#0: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function getPublishedAt() on null in /var/www/symfony/src/Domain/SearchEngine/Entity/Repository/CachedResultRepository.php on line 73
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app_dev.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app_dev.php:21
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\ApiBundle\Controller\SearchController->postAction() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   8. Domain\SearchEngine\Search\Service\SearchService->search() /var/www/symfony/src/Application/Bundle/ApiBundle/Controller/SearchController.php:132
+PHP message: PHP   9. Domain\SearchEngine\Engine\Processor\DefaultProcessor->processSearch() /var/www/symfony/src/Domain/SearchEngine/Search/Service/SearchService.php:73
+PHP message: PHP  10. Domain\SearchEngine\Engine\Manager\CarEngineManager->processSearchProvider() /var/www/symfony/src/Domain/SearchEngine/Engine/Processor/DefaultProcessor.php:41
+PHP message: PHP  11. Domain\SearchEngine\Engine\Manager\CarEngineManager->addResultsToSearch() /var/www/symfony/src/Domain/SearchEngine/Engine/Manager/CarEngineManager.php:113
+PHP message: PHP  12. Domain\SearchEngine\Service\ResultsRepository->addResultsToSearch() /var/www/symfony/src/Domain/SearchEngine/Engine/Manager/CarEngineManager.php:195
+PHP message: PHP  13. Domain\SearchEngine\Service\ResultsRepository->
+2016/02/08 22:49:47 [error] 7#0: *24 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "POST /app_dev.php/api/search/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/app_dev.php/"
+2016/02/08 22:53:10 [error] 7#0: *36 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "POST /api/search/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/app_dev.php"
+2016/02/08 22:53:10 [error] 7#0: *35 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /app_dev.php/template/search/search.html HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/app_dev.php"
+2016/02/08 22:53:14 [error] 7#0: *34 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /assets/js/angular.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev"
+2016/02/08 22:53:14 [error] 7#0: *39 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /assets/js/angular-route.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev"
+2016/02/08 22:53:15 [error] 7#0: *38 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /assets/js/angular-animate.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev"
+2016/02/08 22:53:17 [error] 7#0: *37 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /assets/js/angular-aria.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev"
+2016/02/08 22:54:10 [error] 7#0: *36 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /assets/js/angular-messages.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev"
+2016/02/08 22:55:38 [error] 6#0: *52 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function getPublishedAt() on null in /var/www/symfony/src/Domain/SearchEngine/Entity/Repository/CachedResultRepository.php on line 73
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\ApiBundle\Controller\SearchController->postAction() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   8. Domain\SearchEngine\Search\Service\SearchService->search() /var/www/symfony/src/Application/Bundle/ApiBundle/Controller/SearchController.php:132
+PHP message: PHP   9. Domain\SearchEngine\Engine\Processor\DefaultProcessor->processSearch() /var/www/symfony/src/Domain/SearchEngine/Search/Service/SearchService.php:73
+PHP message: PHP  10. Domain\SearchEngine\Engine\Manager\CarEngineManager->processSearchProvider() /var/www/symfony/src/Domain/SearchEngine/Engine/Processor/DefaultProcessor.php:41
+PHP message: PHP  11. Domain\SearchEngine\Engine\Manager\CarEngineManager->addResultsToSearch() /var/www/symfony/src/Domain/SearchEngine/Engine/Manager/CarEngineManager.php:113
+PHP message: PHP  12. Domain\SearchEngine\Service\ResultsRepository->addResultsToSearch() /var/www/symfony/src/Domain/SearchEngine/Engine/Manager/CarEngineManager.php:195
+PHP message: PHP  13. Domain\SearchEngine\Service\ResultsRepository->populat
+2016/02/08 22:56:04 [error] 7#0: *57 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function getPublishedAt() on null in /var/www/symfony/src/Domain/SearchEngine/Entity/Repository/CachedResultRepository.php on line 73
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\ApiBundle\Controller\SearchController->postAction() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   8. Domain\SearchEngine\Search\Service\SearchService->search() /var/www/symfony/src/Application/Bundle/ApiBundle/Controller/SearchController.php:132
+PHP message: PHP   9. Domain\SearchEngine\Engine\Processor\DefaultProcessor->processSearch() /var/www/symfony/src/Domain/SearchEngine/Search/Service/SearchService.php:73
+PHP message: PHP  10. Domain\SearchEngine\Engine\Manager\CarEngineManager->processSearchProvider() /var/www/symfony/src/Domain/SearchEngine/Engine/Processor/DefaultProcessor.php:41
+PHP message: PHP  11. Domain\SearchEngine\Engine\Manager\CarEngineManager->addResultsToSearch() /var/www/symfony/src/Domain/SearchEngine/Engine/Manager/CarEngineManager.php:113
+PHP message: PHP  12. Domain\SearchEngine\Service\ResultsRepository->addResultsToSearch() /var/www/symfony/src/Domain/SearchEngine/Engine/Manager/CarEngineManager.php:195
+PHP message: PHP  13. Domain\SearchEngine\Service\ResultsRepository->populat
+2016/02/16 23:55:33 [error] 7#0: *271 FastCGI sent in stderr: "PHP message: PHP Warning:  Invalid argument supplied for foreach() in /var/www/symfony/src/Application/Bundle/ApiBundle/Controller/ProvinceController.php on line 39
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\ApiBundle\Controller\ProvinceController->getListAction() /var/www/symfony/app/bootstrap.php.cache:3110" while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /api/province/list HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/app_dev.php"
+2016/02/16 23:55:54 [error] 7#0: *299 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Domain\SearchEngine\Engine\Manager\AmqpCarEngineManager' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 1488
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\ApiBundle\Controller\SearchController->postAction() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   8. Symfony\Bundle\FrameworkBundle\Controller\Controller->get() /var/www/symfony/src/Application/Bundle/ApiBundle/Controller/SearchController.php:124
+PHP message: PHP   9. Symfony\Component\DependencyInjection\Container->get() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php:350
+PHP message: PHP  10. appProdProjectContainer->getSearchEngine_SearchService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  11. Symfony\Component\DependencyInjection\Container->get() /var/www/symfony/app/cache/prod/appProdProjectContainer.php:1552
+PHP message: PHP  12. appProdProjectContainer->getSearchEngine_EngineManagerService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  13. Symfony\Component\DependencyInjection\Container->get() /var/www/symfony/app/cache/prod/appProdProjectContainer.php:1484
+PHP message: PHP  14. appProdProjectContainer->getS
+2016/02/16 23:56:17 [error] 7#0: *309 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Domain\SearchEngine\Engine\Manager\AmqpCarEngineManager' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 1488
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\ApiBundle\Controller\SearchController->getAction() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   8. Symfony\Bundle\FrameworkBundle\Controller\Controller->get() /var/www/symfony/src/Application/Bundle/ApiBundle/Controller/SearchController.php:84
+PHP message: PHP   9. Symfony\Component\DependencyInjection\Container->get() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php:350
+PHP message: PHP  10. appProdProjectContainer->getSearchEngine_SearchService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  11. Symfony\Component\DependencyInjection\Container->get() /var/www/symfony/app/cache/prod/appProdProjectContainer.php:1552
+PHP message: PHP  12. appProdProjectContainer->getSearchEngine_EngineManagerService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  13. Symfony\Component\DependencyInjection\Container->get() /var/www/symfony/app/cache/prod/appProdProjectContainer.php:1484
+PHP message: PHP  14. appProdProjectContainer->getSea
+2016/02/16 23:56:39 [error] 7#0: *309 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Domain\SearchEngine\Engine\Manager\AmqpCarEngineManager' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 1488
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\ApiBundle\Controller\SearchController->postAction() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   8. Symfony\Bundle\FrameworkBundle\Controller\Controller->get() /var/www/symfony/src/Application/Bundle/ApiBundle/Controller/SearchController.php:124
+PHP message: PHP   9. Symfony\Component\DependencyInjection\Container->get() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php:350
+PHP message: PHP  10. appProdProjectContainer->getSearchEngine_SearchService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  11. Symfony\Component\DependencyInjection\Container->get() /var/www/symfony/app/cache/prod/appProdProjectContainer.php:1552
+PHP message: PHP  12. appProdProjectContainer->getSearchEngine_EngineManagerService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  13. Symfony\Component\DependencyInjection\Container->get() /var/www/symfony/app/cache/prod/appProdProjectContainer.php:1484
+PHP message: PHP  14. appProdProjectContainer->getS
+2016/02/16 23:57:18 [error] 7#0: *319 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Domain\SearchEngine\Engine\Manager\AmqpCarEngineManager' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 1488
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\ApiBundle\Controller\SearchController->postAction() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   8. Symfony\Bundle\FrameworkBundle\Controller\Controller->get() /var/www/symfony/src/Application/Bundle/ApiBundle/Controller/SearchController.php:124
+PHP message: PHP   9. Symfony\Component\DependencyInjection\Container->get() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php:350
+PHP message: PHP  10. appProdProjectContainer->getSearchEngine_SearchService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  11. Symfony\Component\DependencyInjection\Container->get() /var/www/symfony/app/cache/prod/appProdProjectContainer.php:1552
+PHP message: PHP  12. appProdProjectContainer->getSearchEngine_EngineManagerService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  13. Symfony\Component\DependencyInjection\Container->get() /var/www/symfony/app/cache/prod/appProdProjectContainer.php:1484
+PHP message: PHP  14. appProdProjectContainer->getS
+2016/02/17 22:45:44 [error] 7#0: *31 FastCGI sent in stderr: "PHP message: PHP Warning:  Invalid argument supplied for foreach() in /var/www/symfony/src/Application/Bundle/ApiBundle/Controller/ProvinceController.php on line 39
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\ApiBundle\Controller\ProvinceController->getListAction() /var/www/symfony/app/bootstrap.php.cache:3110" while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /api/province/list HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/"
+2016/02/17 22:46:44 [error] 8#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Domain\SearchEngine\Engine\Manager\AmqpCarEngineManager' not found in /var/www/symfony/app/cache/prod/appProdProjectContainer.php on line 1488
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\PublisherBundle\Controller\AdvertisementController->indexAction() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   8. Symfony\Bundle\FrameworkBundle\Controller\Controller->get() /var/www/symfony/src/Application/Bundle/PublisherBundle/Controller/AdvertisementController.php:46
+PHP message: PHP   9. Symfony\Component\DependencyInjection\Container->get() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php:350
+PHP message: PHP  10. appProdProjectContainer->getSearchEngine_SearchService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  11. Symfony\Component\DependencyInjection\Container->get() /var/www/symfony/app/cache/prod/appProdProjectContainer.php:1552
+PHP message: PHP  12. appProdProjectContainer->getSearchEngine_EngineManagerService() /var/www/symfony/app/bootstrap.php.cache:2155
+PHP message: PHP  13. Symfony\Component\DependencyInjection\Container->get() /var/www/symfony/app/cache/prod/appProdProjectContainer.php:1484
+PHP message: PHP  14. appP
+2016/02/17 22:48:37 [error] 6#0: *57 FastCGI sent in stderr: "PHP message: PHP Warning:  Invalid argument supplied for foreach() in /var/www/symfony/src/Application/Bundle/ApiBundle/Controller/ProvinceController.php on line 39
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\ApiBundle\Controller\ProvinceController->getListAction() /var/www/symfony/app/bootstrap.php.cache:3110" while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /api/province/list HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/"
+2016/02/17 23:04:13 [error] 8#0: *55 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /template/search/search.html HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/"
+2016/02/17 23:04:13 [error] 8#0: *47 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev"
+2016/02/17 23:04:13 [error] 6#0: *56 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: autoklase.dev, request: "POST /api/search/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/"
+2016/02/17 23:58:39 [error] 6#0: *33 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "POST /app_dev.php/api/search/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/app_dev.php/"
+2016/02/17 23:58:53 [error] 6#0: *49 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/api/search/undefined.json?page=1&sort_direction=DESC HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/app_dev.php/"
+2016/02/18 00:52:54 [error] 6#0: *53 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/publisher/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/app_dev.php/"
+2016/02/18 21:58:14 [error] 8#0: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unable to create the Doctrine Proxy directory "/var/www/symfony/app/cache/prod/doctrine/orm/Proxies".' in /var/www/symfony/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/CacheWarmer/ProxyCacheWarmer.php:58
+Stack trace:
+#0 /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/CacheWarmer/CacheWarmerAggregate.php(48): Symfony\Bridge\Doctrine\CacheWarmer\ProxyCacheWarmer->warmUp('/var/www/symfon...')
+#1 /var/www/symfony/app/bootstrap.php.cache(2639): Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerAggregate->warmUp('/var/www/symfon...')
+#2 /var/www/symfony/app/bootstrap.php.cache(2409): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#3 /var/www/symfony/app/bootstrap.php.cache(2440): Symfony\Component\HttpKernel\Kernel->boot()
+#4 /var/www/symfony/web/app.php(23): Symfony\Component\HttpKernel\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#5 {main}
+  thrown in /var/www/sym" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev"
+2016/02/18 21:58:14 [error] 8#0: *153 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unable to create the Doctrine Proxy directory "/var/www/symfony/app/cache/prod/doctrine/orm/Proxies".' in /var/www/symfony/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/CacheWarmer/ProxyCacheWarmer.php:58
+Stack trace:
+#0 /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/CacheWarmer/CacheWarmerAggregate.php(48): Symfony\Bridge\Doctrine\CacheWarmer\ProxyCacheWarmer->warmUp('/var/www/symfon...')
+#1 /var/www/symfony/app/bootstrap.php.cache(2639): Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerAggregate->warmUp('/var/www/symfon...')
+#2 /var/www/symfony/app/bootstrap.php.cache(2409): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#3 /var/www/symfony/app/bootstrap.php.cache(2440): Symfony\Component\HttpKernel\Kernel->boot()
+#4 /var/www/symfony/web/app.php(23): Symfony\Component\HttpKernel\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#5 {main}
+  thrown in /var/www/sym" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-messages.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev"
+2016/02/19 18:58:51 [error] 8#0: *61 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unable to create the Doctrine Proxy directory "/var/www/symfony/app/cache/prod/doctrine/orm/Proxies".' in /var/www/symfony/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/CacheWarmer/ProxyCacheWarmer.php:58
+Stack trace:
+#0 /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/CacheWarmer/CacheWarmerAggregate.php(48): Symfony\Bridge\Doctrine\CacheWarmer\ProxyCacheWarmer->warmUp('/var/www/symfon...')
+#1 /var/www/symfony/app/bootstrap.php.cache(2639): Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerAggregate->warmUp('/var/www/symfon...')
+#2 /var/www/symfony/app/bootstrap.php.cache(2409): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#3 /var/www/symfony/app/bootstrap.php.cache(2440): Symfony\Component\HttpKernel\Kernel->boot()
+#4 /var/www/symfony/web/app.php(23): Symfony\Component\HttpKernel\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#5 {main}
+  thrown in /var/www/sym" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-messages.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev"
+2016/02/19 18:58:51 [error] 8#0: *65 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unable to create the Doctrine Proxy directory "/var/www/symfony/app/cache/prod/doctrine/orm/Proxies".' in /var/www/symfony/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/CacheWarmer/ProxyCacheWarmer.php:58
+Stack trace:
+#0 /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/CacheWarmer/CacheWarmerAggregate.php(48): Symfony\Bridge\Doctrine\CacheWarmer\ProxyCacheWarmer->warmUp('/var/www/symfon...')
+#1 /var/www/symfony/app/bootstrap.php.cache(2639): Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerAggregate->warmUp('/var/www/symfon...')
+#2 /var/www/symfony/app/bootstrap.php.cache(2409): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#3 /var/www/symfony/app/bootstrap.php.cache(2440): Symfony\Component\HttpKernel\Kernel->boot()
+#4 /var/www/symfony/web/app.php(23): Symfony\Component\HttpKernel\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#5 {main}
+  thrown in /var/www/sym" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-aria.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev"
+2016/02/19 18:58:51 [error] 8#0: *63 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unable to create the Doctrine Proxy directory "/var/www/symfony/app/cache/prod/doctrine/orm/Proxies".' in /var/www/symfony/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/CacheWarmer/ProxyCacheWarmer.php:58
+Stack trace:
+#0 /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/CacheWarmer/CacheWarmerAggregate.php(48): Symfony\Bridge\Doctrine\CacheWarmer\ProxyCacheWarmer->warmUp('/var/www/symfon...')
+#1 /var/www/symfony/app/bootstrap.php.cache(2639): Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerAggregate->warmUp('/var/www/symfon...')
+#2 /var/www/symfony/app/bootstrap.php.cache(2409): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#3 /var/www/symfony/app/bootstrap.php.cache(2440): Symfony\Component\HttpKernel\Kernel->boot()
+#4 /var/www/symfony/web/app.php(23): Symfony\Component\HttpKernel\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#5 {main}
+  thrown in /var/www/sym" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /assets/js/angular-route.min.js.map HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev"
+2016/02/19 19:17:02 [error] 8#0: *142 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "POST /app_dev.php/api/search/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/app_dev.php/"
+2016/02/19 19:29:50 [error] 8#0: *144 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "POST /app_dev.php/api/search/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/app_dev.php/"
+2016/02/19 20:06:36 [error] 9#0: *1 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev"
+2016/02/19 23:43:53 [error] 7#0: *345 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ',' in /var/www/symfony/src/Application/Bundle/AdminBundle/Controller/MaintenanceController.php on line 80
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app_dev.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app_dev.php:21
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch() /var/www/symfony/app/bootstrap.php.cache:3099
+PHP message: PHP   7. Symfony\Component\EventDispatcher\EventDispatcher->dispatch() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php:124
+PHP message: PHP   8. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch() /var/www/symfony/app/cache/dev/classes.php:1763
+PHP message: PHP   9. call_user_func:{/var/www/symfony/app/cache/dev/classes.php:1834}() /var/www/symfony/app/cache/dev/classes.php:1834
+PHP message: PHP  10. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke() /var/www/symfony/app/cache/dev/classes.php:1834
+PHP message: PHP  11. call_user_func:{/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61}() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+PHP message: PHP  12. Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php:61
+PHP message: P
+2016/02/19 23:43:53 [error] 7#0: *345 FastCGI sent in stderr: "Routing\Loader\YamlFileLoader->parseImport() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Loader/YamlFileLoader.php:94
+PHP message: PHP  27. Symfony\Component\Config\Loader\FileLoader->import() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Loader/YamlFileLoader.php:174
+PHP message: PHP  28. Symfony\Component\Routing\Loader\YamlFileLoader->load() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Loader/FileLoader.php:112
+PHP message: PHP  29. Symfony\Component\Routing\Loader\YamlFileLoader->parseImport() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Loader/YamlFileLoader.php:94
+PHP message: PHP  30. Symfony\Component\Config\Loader\FileLoader->import() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Loader/YamlFileLoader.php:174
+PHP message: PHP  31. Symfony\Component\Routing\Loader\AnnotationDirectoryLoader->load() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Loader/FileLoader.php:112
+PHP message: PHP  32. ReflectionClass->__construct() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Loader/AnnotationDirectoryLoader.php:52
+PHP message: PHP  33. spl_autoload_call() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Loader/AnnotationDirectoryLoader.php:52
+PHP message: PHP  34. Symfony\Component\Debug\DebugClassLoader->loadClass() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Loader/AnnotationDirectoryLoader.php:52" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/admin/maintenance/users HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev"
+2016/02/19 23:52:16 [error] 8#0: *421 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/admin/maintenance/users/role/1/ROLE_PUBLISHER HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/app_dev.php/admin/maintenance/users"
+2016/02/20 01:12:38 [error] 9#0: *32 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "POST /app_dev.php/api/search/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/app_dev.php/"
+2016/02/20 01:15:41 [error] 6#0: *53 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "POST /app_dev.php/api/search/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/app_dev.php/"
+2016/02/20 01:19:01 [error] 6#0: *55 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "POST /app_dev.php/api/search/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/app_dev.php/"
+2016/02/20 01:21:31 [error] 6#0: *57 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "POST /app_dev.php/api/search/ HTTP/1.1", upstream: "fastcgi://172.17.0.6:9000", host: "autoklase.dev", referrer: "http://autoklase.dev/app_dev.php/"
+2016/03/10 12:18:33 [error] 6#0: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  Invalid argument supplied for foreach() in /var/www/symfony/src/Application/Bundle/ApiBundle/Controller/ProvinceController.php on line 39
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\ApiBundle\Controller\ProvinceController->getListAction() /var/www/symfony/app/bootstrap.php.cache:3110" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /api/province/list HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/"
+2016/03/10 12:23:04 [error] 7#0: *26 FastCGI sent in stderr: "PHP message: PHP Warning:  Invalid argument supplied for foreach() in /var/www/symfony/src/Application/Bundle/ApiBundle/Controller/ProvinceController.php on line 39
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\ApiBundle\Controller\ProvinceController->getListAction() /var/www/symfony/app/bootstrap.php.cache:3110" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /api/province/list HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/"
+2016/03/10 12:45:20 [error] 7#0: *71 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match(): Empty regular expression in /var/www/symfony/src/Domain/SearchEngine/Engine/Adapter/AbstractAdapter.php on line 207
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\PublisherBundle\Controller\AdvertisementController->newAction() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   8. Domain\SearchEngine\Search\Service\SearchService->getResultByUrl() /var/www/symfony/src/Application/Bundle/PublisherBundle/Controller/AdvertisementController.php:84
+PHP message: PHP   9. Domain\SearchEngine\Engine\Manager\CarEngineManager->processSearchResultByUrl() /var/www/symfony/src/Domain/SearchEngine/Search/Service/SearchService.php:112
+PHP message: PHP  10. Domain\SearchEngine\Engine\Config\Partners::getPartnerByUrl() /var/www/symfony/src/Domain/SearchEngine/Engine/Manager/CarEngineManager.php:196
+PHP message: PHP  11. Domain\SearchEngine\Engine\Adapter\AbstractAdapter::isUrl() /var/www/symfony/src/Domain/SearchEngine/Engine/Config/Partners.php:104
+PHP message: PHP  12. preg_match() /var/www/symfony/src/Domain/SearchEngine/Engine/Adapter/AbstractAdapter.php:207" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "POST /publisher/new HTTP/1.1", upstream: "fastcgi://172
+2016/03/10 12:45:31 [error] 7#0: *71 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match(): Empty regular expression in /var/www/symfony/src/Domain/SearchEngine/Engine/Adapter/AbstractAdapter.php on line 207
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\PublisherBundle\Controller\AdvertisementController->newAction() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   8. Domain\SearchEngine\Search\Service\SearchService->getResultByUrl() /var/www/symfony/src/Application/Bundle/PublisherBundle/Controller/AdvertisementController.php:84
+PHP message: PHP   9. Domain\SearchEngine\Engine\Manager\CarEngineManager->processSearchResultByUrl() /var/www/symfony/src/Domain/SearchEngine/Search/Service/SearchService.php:112
+PHP message: PHP  10. Domain\SearchEngine\Engine\Config\Partners::getPartnerByUrl() /var/www/symfony/src/Domain/SearchEngine/Engine/Manager/CarEngineManager.php:196
+PHP message: PHP  11. Domain\SearchEngine\Engine\Adapter\AbstractAdapter::isUrl() /var/www/symfony/src/Domain/SearchEngine/Engine/Config/Partners.php:104
+PHP message: PHP  12. preg_match() /var/www/symfony/src/Domain/SearchEngine/Engine/Adapter/AbstractAdapter.php:207" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "POST /publisher/new HTTP/1.1", upstream: "fastcgi://172
+2016/03/10 12:45:36 [error] 7#0: *71 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match(): Empty regular expression in /var/www/symfony/src/Domain/SearchEngine/Engine/Adapter/AbstractAdapter.php on line 207
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\PublisherBundle\Controller\AdvertisementController->newAction() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   8. Domain\SearchEngine\Search\Service\SearchService->getResultByUrl() /var/www/symfony/src/Application/Bundle/PublisherBundle/Controller/AdvertisementController.php:84
+PHP message: PHP   9. Domain\SearchEngine\Engine\Manager\CarEngineManager->processSearchResultByUrl() /var/www/symfony/src/Domain/SearchEngine/Search/Service/SearchService.php:112
+PHP message: PHP  10. Domain\SearchEngine\Engine\Config\Partners::getPartnerByUrl() /var/www/symfony/src/Domain/SearchEngine/Engine/Manager/CarEngineManager.php:196
+PHP message: PHP  11. Domain\SearchEngine\Engine\Adapter\AbstractAdapter::isUrl() /var/www/symfony/src/Domain/SearchEngine/Engine/Config/Partners.php:104
+PHP message: PHP  12. preg_match() /var/www/symfony/src/Domain/SearchEngine/Engine/Adapter/AbstractAdapter.php:207" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "POST /publisher/new HTTP/1.1", upstream: "fastcgi://172
+2016/03/14 22:42:23 [error] 8#0: *6 FastCGI sent in stderr: "PHP message: PHP Warning:  Invalid argument supplied for foreach() in /var/www/symfony/src/Application/Bundle/ApiBundle/Controller/ProvinceController.php on line 39
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\ApiBundle\Controller\ProvinceController->getListAction() /var/www/symfony/app/bootstrap.php.cache:3110" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /api/province/list HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/"
+2016/03/14 23:26:07 [error] 6#0: *173 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/publisher/profile HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "192.168.99.100"
+2016/03/16 15:11:43 [error] 7#0: *13 FastCGI sent in stderr: "PHP message: PHP Warning:  Invalid argument supplied for foreach() in /var/www/symfony/src/Application/Bundle/ApiBundle/Controller/ProvinceController.php on line 39
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\ApiBundle\Controller\ProvinceController->getListAction() /var/www/symfony/app/bootstrap.php.cache:3110" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /api/province/list HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/"
+2016/03/18 20:20:10 [error] 9#0: *33 FastCGI sent in stderr: "PHP message: PHP Warning:  Invalid argument supplied for foreach() in /var/www/symfony/src/Application/Bundle/ApiBundle/Controller/ProvinceController.php on line 39
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\ApiBundle\Controller\ProvinceController->getListAction() /var/www/symfony/app/bootstrap.php.cache:3110" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /api/province/list HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/"
+2016/03/18 20:25:45 [error] 9#0: *47 FastCGI sent in stderr: "PHP message: PHP Warning:  Invalid argument supplied for foreach() in /var/www/symfony/src/Application/Bundle/ApiBundle/Controller/ProvinceController.php on line 39
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app.php:23
+PHP message: PHP   3. Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:2442
+PHP message: PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /var/www/symfony/app/bootstrap.php.cache:3223
+PHP message: PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /var/www/symfony/app/bootstrap.php.cache:3072
+PHP message: PHP   6. call_user_func_array:{/var/www/symfony/app/bootstrap.php.cache:3110}() /var/www/symfony/app/bootstrap.php.cache:3110
+PHP message: PHP   7. Application\Bundle\ApiBundle\Controller\ProvinceController->getListAction() /var/www/symfony/app/bootstrap.php.cache:3110" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /api/province/list HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/"
+2016/03/20 17:10:47 [error] 8#0: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'Symfony\Component\Yaml\Exception\ParseException' with message 'Indentation problem at line 55 (near "   orm:").' in /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Yaml/Parser.php:439
+Stack trace:
+#0 /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Yaml/Parser.php(225): Symfony\Component\Yaml\Parser->getNextEmbedBlock()
+#1 /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/YamlFileLoader.php(360): Symfony\Component\Yaml\Parser->parse('imports:\n    - ...')
+#2 /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/YamlFileLoader.php(44): Symfony\Component\DependencyInjection\Loader\YamlFileLoader->loadFile('/var/www/symfon...')
+#3 /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Loader/FileLoader.php(112): Symfony\Component\DependencyInjection\Loader\YamlFileLoader->load('/var/www/symfon...', NULL)
+#4 /var/www/symfony/vendor/symfony/symfon" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "192.168.99.100"
+2016/03/20 17:15:03 [error] 8#0: *42 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'OpenSans\Ui\SharedBundle\OpenSansUiSharedBundle' not found in /var/www/symfony/app/AppKernel.php on line 26
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app_dev.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app_dev.php:30
+PHP message: PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:182
+PHP message: PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:130
+PHP message: PHP   5. AppKernel->registerBundles() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:430" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "192.168.99.100"
+2016/03/20 17:16:11 [error] 8#0: *47 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'OpenSans\Ui\SharedBundle\OpenSansUiSharedBundle' not found in /var/www/symfony/app/AppKernel.php on line 26
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app_dev.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app_dev.php:30
+PHP message: PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:182
+PHP message: PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:130
+PHP message: PHP   5. AppKernel->registerBundles() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:430" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "192.168.99.100"
+2016/03/20 17:16:36 [error] 8#0: *47 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'OpenSans\Ui\SharedBundle\OpenSansUiSharedBundle' not found in /var/www/symfony/app/AppKernel.php on line 26
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app_dev.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app_dev.php:30
+PHP message: PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:182
+PHP message: PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:130
+PHP message: PHP   5. AppKernel->registerBundles() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:430" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "192.168.99.100"
+2016/03/20 17:18:21 [error] 8#0: *54 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'OpenSans\Ui\SharedBundle\OpenSansUiSharedBundle' not found in /var/www/symfony/app/AppKernel.php on line 26
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app_dev.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app_dev.php:30
+PHP message: PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:182
+PHP message: PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:130
+PHP message: PHP   5. AppKernel->registerBundles() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:430" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "192.168.99.100"
+2016/03/20 17:19:00 [error] 8#0: *57 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'OpenSans\Ui\SharedBundle\OpenSpaceUiSharedBundle' not found in /var/www/symfony/app/AppKernel.php on line 26
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app_dev.php:0
+PHP message: PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /var/www/symfony/web/app_dev.php:30
+PHP message: PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:182
+PHP message: PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:130
+PHP message: PHP   5. AppKernel->registerBundles() /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:430" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "192.168.99.100"
+2016/03/20 20:41:32 [error] 8#0: *86 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'Symfony\Component\DependencyInjection\Exception\ServiceNotFoundException' with message 'The service "openspace.ui.web.controller.task" has a dependency on a non-existent service "openspace.query.repository.task_view_model_repository".' in /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Compiler/CheckExceptionOnInvalidReferenceBehaviorPass.php:58
+Stack trace:
+#0 /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Compiler/CheckExceptionOnInvalidReferenceBehaviorPass.php(42): Symfony\Component\DependencyInjection\Compiler\CheckExceptionOnInvalidReferenceBehaviorPass->processReferences(Array)
+#1 /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Compiler/CheckExceptionOnInvalidReferenceBehaviorPass.php(36): Symfony\Component\DependencyInjection\Compiler\CheckExceptionOnInvalidReferenceBehaviorPass->processDefinition(Object(Symfony\Component\DependencyInjection\Defi" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "192.168.99.100"
+2016/03/20 20:44:46 [error] 8#0: *92 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unable to create the Doctrine Proxy directory "/var/www/symfony/app/cache/prod/doctrine/orm/Proxies".' in /var/www/symfony/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/CacheWarmer/ProxyCacheWarmer.php:58
+Stack trace:
+#0 /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/CacheWarmer/CacheWarmerAggregate.php(48): Symfony\Bridge\Doctrine\CacheWarmer\ProxyCacheWarmer->warmUp('/var/www/symfon...')
+#1 /var/www/symfony/app/bootstrap.php.cache(2703): Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerAggregate->warmUp('/var/www/symfon...')
+#2 /var/www/symfony/app/bootstrap.php.cache(2473): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#3 /var/www/symfony/app/bootstrap.php.cache(2504): Symfony\Component\HttpKernel\Kernel->boot()
+#4 /var/www/symfony/web/app.php(28): Symfony\Component\HttpKernel\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#5 {main}
+  thrown in /var/www/sym" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /bundles/acmetaskuiweb/css/bootstrap.min.css HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/app_dev.php/"
+2016/03/20 20:44:46 [error] 8#0: *99 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unable to create the Doctrine Proxy directory "/var/www/symfony/app/cache/prod/doctrine/orm/Proxies".' in /var/www/symfony/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/CacheWarmer/ProxyCacheWarmer.php:58
+Stack trace:
+#0 /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/CacheWarmer/CacheWarmerAggregate.php(48): Symfony\Bridge\Doctrine\CacheWarmer\ProxyCacheWarmer->warmUp('/var/www/symfon...')
+#1 /var/www/symfony/app/bootstrap.php.cache(2703): Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerAggregate->warmUp('/var/www/symfon...')
+#2 /var/www/symfony/app/bootstrap.php.cache(2473): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#3 /var/www/symfony/app/bootstrap.php.cache(2504): Symfony\Component\HttpKernel\Kernel->boot()
+#4 /var/www/symfony/web/app.php(28): Symfony\Component\HttpKernel\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#5 {main}
+  thrown in /var/www/sym" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /bundles/acmetaskuiweb/images/hello-you.png HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/app_dev.php/"
+2016/03/20 20:44:46 [error] 8#0: *95 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unable to create the Doctrine Proxy directory "/var/www/symfony/app/cache/prod/doctrine/orm/Proxies".' in /var/www/symfony/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/CacheWarmer/ProxyCacheWarmer.php:58
+Stack trace:
+#0 /var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/CacheWarmer/CacheWarmerAggregate.php(48): Symfony\Bridge\Doctrine\CacheWarmer\ProxyCacheWarmer->warmUp('/var/www/symfon...')
+#1 /var/www/symfony/app/bootstrap.php.cache(2703): Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerAggregate->warmUp('/var/www/symfon...')
+#2 /var/www/symfony/app/bootstrap.php.cache(2473): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#3 /var/www/symfony/app/bootstrap.php.cache(2504): Symfony\Component\HttpKernel\Kernel->boot()
+#4 /var/www/symfony/web/app.php(28): Symfony\Component\HttpKernel\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#5 {main}
+  thrown in /var/www/sym" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /bundles/acmetaskuiweb/css/style.css HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/app_dev.php/"
+2016/03/20 20:54:19 [error] 7#0: *151 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting ')' in /var/www/symfony/app/AppKernel.php on line 28
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app_dev.php:0
+PHP message: PHP   2. spl_autoload_call() /var/www/symfony/web/app_dev.php:27
+PHP message: PHP   3. Symfony\Component\Debug\DebugClassLoader->loadClass() /var/www/symfony/web/app_dev.php:27" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "192.168.99.100"
+2016/03/20 20:54:21 [error] 7#0: *151 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting ')' in /var/www/symfony/app/AppKernel.php on line 28
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/symfony/web/app_dev.php:0
+PHP message: PHP   2. spl_autoload_call() /var/www/symfony/web/app_dev.php:27
+PHP message: PHP   3. Symfony\Component\Debug\DebugClassLoader->loadClass() /var/www/symfony/web/app_dev.php:27" while reading response header from upstream, client: 192.168.99.1, server: symfony.dev, request: "GET /app_dev.php/ HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "192.168.99.100"
